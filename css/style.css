@@ -12,8 +12,8 @@
     display: flex;
     border-radius: 25px;
     border: 2px solid #000000;
-    padding: 20px;
-    width: 67%;
+    padding: 67%;
+    width: 250px;
     height: 5px;
     flex-direction: row;
     align-items: center;
@@ -33,11 +33,11 @@ h1{
 
 h2{
     display: flex;
-    margin-top:3%;
+    margin-top:5%;
     justify-content: center;
-    align-items: center;
     font-size: 40px;
-    text-decoration: underline;
+    font-style: underline;
+    font-weight: bold;
 }
 
 .menu_direita{
@@ -105,9 +105,17 @@ h2{
 .etapas{
     font-size: 25px
 }
+
 .coluna{
     display:flex;
     flex-direction: column;
+}
+.linha{
+    display:flex;
+    flex-direction: row;
+}
+.center{
+    justify-content: center;
 }
 .t5{
     border-bottom: .2rem solid #000000;
@@ -116,5 +124,23 @@ h2{
 }
 .fs{
     font-size: 3rem;
+}
+
+.pbl{
+    border: .2rem solid #000000;
+    padding:2.7rem;
+}
+.img{
+    width: 10rem;
+    height: 10rem;
+}
+.gap{
+    gap:2rem
+}
+.pbl{
+    border: .2rem solid #000000;
+}
+.pdd{
+    padding:8rem
 }
 
