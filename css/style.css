@@ -33,9 +33,11 @@ h1{
 
 h2{
     display: flex;
-    margin-top:5%;
+    margin-top:3%;
     justify-content: center;
+    align-items: center;
     font-size: 40px;
+    text-decoration: underline;
 }
 
 .menu_direita{
@@ -67,6 +69,43 @@ h2{
     height: 30px;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.lista_noticias{
+    margin-top:10px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.noticia{
+    margin: 15px;
+}
+
+.clicaveis_noticia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.img_noticia{
+    border-radius: 15px;
+}
+
+
+.titulo_noticia{
+    font-size:20px;
+    font-weight: bold;
+}
+
+.paragrafo_noticia{
+    margin-top:7px;
+}
+=======
+>>>>>>> 228d16cff02ac23b351b2b5ca9a540b7a70c427c
 .etapas{
     font-size: 25px;
     padding-left: 15px;
@@ -75,12 +114,15 @@ h2{
     padding-bottom: 5px;
     font-weight:bold ;
 }
+<<<<<<< HEAD
 
 .texto_etapas{
     margin-right: 15px;
     margin-left: 20px;
 }
 
+=======
+>>>>>>> 228d16cff02ac23b351b2b5ca9a540b7a70c427c
 .coluna{
     display:flex;
     flex-direction: column;
@@ -93,4 +135,8 @@ h2{
 .fs{
     font-size: 3rem;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> d3d9bbbfc548cfe4a42437cc70d4bdfdf500664f
+>>>>>>> 228d16cff02ac23b351b2b5ca9a540b7a70c427c
