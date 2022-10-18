@@ -71,6 +71,13 @@ h2{
     display:flex;
     flex-direction: column;
 }
+.linha{
+    display:flex;
+    flex-direction: row;
+}
+.center{
+    justify-content: center;
+}
 .t5{
     border-bottom: .2rem solid #000000;
     padding:2.7rem;
@@ -78,4 +85,21 @@ h2{
 }
 .fs{
     font-size: 3rem;
+}
+.pbl{
+    border: .2rem solid #000000;
+    padding:2.7rem;
+}
+.img{
+    width: 10rem;
+    height: 10rem;
+}
+.gap{
+    gap:2rem
+}
+.pbl{
+    border: .2rem solid #000000;
+}
+.pdd{
+    padding:8rem
 }
