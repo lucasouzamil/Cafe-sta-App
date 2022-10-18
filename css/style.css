@@ -67,11 +67,9 @@ h2{
     height: 30px;
 }
 
-<<<<<<< HEAD
 .etapas{
     font-size: 25px
 }
-=======
 .coluna{
     display:flex;
     flex-direction: column;
@@ -84,4 +82,3 @@ h2{
 .fs{
     font-size: 3rem;
 }
->>>>>>> 75fc3c44c535353b0d0fc5e65b763590cf13d5ab
