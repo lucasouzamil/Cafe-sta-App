@@ -67,6 +67,21 @@ h2{
     height: 30px;
 }
 
+<<<<<<< HEAD
 .etapas{
     font-size: 25px
 }
+=======
+.coluna{
+    display:flex;
+    flex-direction: column;
+}
+.t5{
+    border-bottom: .2rem solid #000000;
+    padding:2.7rem;
+    font-size: 2rem;
+}
+.fs{
+    font-size: 3rem;
+}
+>>>>>>> 75fc3c44c535353b0d0fc5e65b763590cf13d5ab
