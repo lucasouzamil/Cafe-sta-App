@@ -13,7 +13,7 @@
     border-radius: 25px;
     border: 2px solid #000000;
     padding: 20px;
-    width: 250px;
+    width: 67%;
     height: 5px;
     flex-direction: row;
     align-items: center;
@@ -69,6 +69,7 @@ h2{
     height: 30px;
 }
 
+<<<<<<< HEAD
 .lista_noticias{
     margin-top:10px;
     display: flex;
@@ -101,3 +102,20 @@ h2{
 .paragrafo_noticia{
     margin-top:7px;
 }
+=======
+.etapas{
+    font-size: 25px
+}
+.coluna{
+    display:flex;
+    flex-direction: column;
+}
+.t5{
+    border-bottom: .2rem solid #000000;
+    padding:2.7rem;
+    font-size: 2rem;
+}
+.fs{
+    font-size: 3rem;
+}
+>>>>>>> d3d9bbbfc548cfe4a42437cc70d4bdfdf500664f
