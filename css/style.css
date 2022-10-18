@@ -33,9 +33,11 @@ h1{
 
 h2{
     display: flex;
-    margin-top:5%;
+    margin-top:3%;
     justify-content: center;
+    align-items: center;
     font-size: 40px;
+    text-decoration: underline;
 }
 
 .menu_direita{
@@ -65,4 +67,37 @@ h2{
     display: flex;
     width: 30px;
     height: 30px;
+}
+
+.lista_noticias{
+    margin-top:10px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.noticia{
+    margin: 15px;
+}
+
+.clicaveis_noticia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.img_noticia{
+    border-radius: 15px;
+}
+
+
+.titulo_noticia{
+    font-size:20px;
+    font-weight: bold;
+}
+
+.paragrafo_noticia{
+    margin-top:7px;
 }
