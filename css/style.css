@@ -67,11 +67,20 @@ h2{
     height: 30px;
 }
 
-<<<<<<< HEAD
 .etapas{
-    font-size: 25px
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-weight:bold ;
 }
-=======
+
+.texto_etapas{
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
 .coluna{
     display:flex;
     flex-direction: column;
@@ -84,4 +93,4 @@ h2{
 .fs{
     font-size: 3rem;
 }
->>>>>>> 75fc3c44c535353b0d0fc5e65b763590cf13d5ab
+
