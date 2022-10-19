@@ -135,6 +135,9 @@ h2{
 .fs{
     font-size: 3rem;
 }
+.fs2{
+    font-size: 1.3rem;
+}
 
 .pbl{
     border: .2rem solid #000000;
@@ -151,7 +154,10 @@ h2{
     border: .2rem solid #000000;
 }
 .pdd{
-    padding:8rem
+    padding:8.3rem
+}
+.pddl{
+    padding-right:14rem
 }
 
 .topo_comunidade{
