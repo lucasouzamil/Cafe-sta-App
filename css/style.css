@@ -133,9 +133,7 @@ h2{
     padding:2.7rem;
     font-size: 2rem;
 }
-.fs{
-    font-size: 3rem;
-}
+
 .fs2{
     font-size: 1.3rem;
 }
@@ -239,4 +237,41 @@ h2{
 
 .botao_comentar_publicacao{
     width: 80%;
+}
+
+.assuntos_relacionados{
+    margin-left: 25px;
+}
+
+.topo_perfil{
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    justify-content: left;
+    gap:13px;   
+}
+
+.nome_perfil{
+    font-size: 25px;
+}
+
+.foto_perfil{
+    border-radius: 50%;
+}
+
+.botoes_topo_perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    gap:10px;
+}
+
+.descricao_perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap:6px;
 }

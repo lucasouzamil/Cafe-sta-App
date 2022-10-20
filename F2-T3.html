@@ -4,73 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil</title>
+    <title>Comunidade</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header> 
-        <nav>
-            <ul>
-                <li>
-                    <a href="perfil.html" rel=""><img src="img/person_icon.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="telaexemplo.html" rel=""><img src="img/bell_icon.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="telaexemplo.html" rel=""><img src="img/tree_points.png" alt=""></a>
-                </li>
-            </ul>
+    <header Class="cabecalho"> 
+        <nav Class="menu_esquerda">
+            <a href="Index.html" rel="">
+                <img src="https://via.placeholder.com/30" alt="">
+            </a>
+        </nav>
+
+        <h1>Cafeísta</h1>
+
+        <nav Class="menu_direita">
+            <a href="F3-T5.html" rel="">
+                <img Class=imagens_cabecalho src="img/person_icon.png" alt="">
+            </a>
+
+            <a href="telaexemplo.html" rel="">
+                <img Class=imagens_cabecalho src="img/bell_icon.png" alt="">
+            </a>
+
+            <a href="mais.html" rel="">
+                <img Class=imagens_cabecalho src="img/tree_points.png" alt="">
+            </a>
         </nav>
     </header>
-    <header>  
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html" rel=""><img src="img/left_arrow_icon.png" alt=""></a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <ul>
-                <li>
-                    <h1>Arthur</h1>
-                    <h2>Produtor</h2>
-                    <a href="perfil.html" rel=""><img src="img/person_icon.png" alt=""></a>
-                    <img src="img/estrelas.png" alt="">
-                </li>
-            </ul>
+
+    <article Class="topo_perfil">
+        <a Class="botao_foto_perfil">
+            <img Class = 'foto_perfil' src="https://via.placeholder.com/80" alt="">
+        </a>
+        <section Class="descricao_perfil">
+            <h2 Class="nome_perfil">Arthur Gouvea</h2>
+            <h3 Class="profissao_usuario">Produtor de café</h3>
+            <picture Class="estrelas">
+                <img Class="estrela" src="https://via.placeholder.com/15" alt="">
+                <img Class="estrela" src="https://via.placeholder.com/15" alt="">
+                <img Class="estrela" src="https://via.placeholder.com/15" alt="">
+                <img Class="estrela" src="https://via.placeholder.com/15" alt="">
+                <img Class="estrela" src="https://via.placeholder.com/15" alt="">
+            </picture>
         </section>
-        <ul>
-            <li>
-                <a href="chat.html" rel=""><img src="img/email_icon.png" alt=""></a>
+        <nav Class="botoes_topo_perfil">
+            <input Class='botao_seguir' type="button" value="Seguir">
+            <a  Class='botao_mensagem' href="F2-T4.html">
+                <img src="https://via.placeholder.com/20" alt="">
+            </a>
+        </nav>
+    </article>
+
+    <main> 
+        <ul Class = 'lista_publicacoes'>
+            <li Class = 'publicacao'>
+                <a Class = 'botao_perfil_publicacao' href="telaexemplo.html">
+                    <img Class = 'foto_perfil_publicacao'  src="https://via.placeholder.com/40" alt="exemplo">
+                    <section Class="nome_assunto_publicacao">
+                        <h3 Class="nome_publicacao">Arthur Gouvea</h3>
+                        <p Class="assunto_publicacao">Cigarras</p>
+                    </section>
+                </a>
+                <p Class="texto_publicacao">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, excepturi. Cumque ad molestias molestiae veniam possimus corporis in explicabo delen</p>
+                <picture Class="carretel_img_publicacao">
+                    <img  Class='img_carretel_publicacao' src="https://via.placeholder.com/150" alt="exemplo">
+                    <img  Class='img_carretel_publicacao' src="https://via.placeholder.com/150" alt="exemplo">
+                </picture>
+                <nav Class="rodape_publicacao">
+                    <input Class='botao_comentar_publicacao'type="text" placeholder="Comentar">
+                    <a Class="botao_curtir_publicacao" href="telaexemplo.html">
+                        <img Class="img_curtir_publicacao" src="https://via.placeholder.com/20" alt="exemplo">
+                    </a>
+                    <a Class="botao_compartilhar_publicacao" >
+                        <img  Class="img_compartilhar_publicacao" src="https://via.placeholder.com/20" alt="exemplo">
+                    </a>
+                </nav>
             </li>
-        </ul>
-            <ul>
-            <li>
-                <h2>Quem sou eu:</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eveniet consequatur dignissimos optio eos, eligendi tenetur possimus illo quam. Harum aut cupiditate quam dignissimos laudantium optio qui provident sapiente quis?</p>
+            <li Class = 'publicacao'>
+                <a Class = 'botao_perfil_publicacao' href="telaexemplo.html">
+                    <img Class = 'foto_perfil_publicacao'  src="https://via.placeholder.com/40" alt="exemplo">
+                    <section Class="nome_assunto_publicacao">
+                        <h3 Class="nome_publicacao">Arthur Gouvea</h3>
+                        <p Class="assunto_publicacao">Braquiaria</p>
+                    </section>
+                </a>
+                <p Class="texto_publicacao">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, excepturi. Cumque ad molestias molestiae veniam possimus corporis in explicabo delen</p>
+                <picture Class="carretel_img_publicacao">
+                    <img  Class='img_carretel_publicacao' src="https://via.placeholder.com/150" alt="exemplo">
+                    <img  Class='img_carretel_publicacao' src="https://via.placeholder.com/150" alt="exemplo">
+                </picture>
+                <nav Class="rodape_publicacao">
+                    <input Class='botao_comentar_publicacao'type="text" placeholder="Comentar">
+                    <a Class="botao_curtir_publicacao" href="telaexemplo.html">
+                        <img Class="img_curtir_publicacao" src="https://via.placeholder.com/20" alt="exemplo">
+                    </a>
+                    <a Class="botao_compartilhar_publicacao" >
+                        <img  Class="img_compartilhar_publicacao" src="https://via.placeholder.com/20" alt="exemplo">
+                    </a>
+                </nav>
             </li>
+            
         </ul>
     </main>
+
     <footer>
         <nav>
-            <ul>
+            <ul Class="footer">
                 <li>
-                    <a href="metodos.html"><img src="img/clipboard_icon.png" alt=""></a>
+                    <a href="metodos.html"><img class=imagens_footer src="img/clipboard_icon.png" alt=""></a>
                 </li>
                 <li>
-                    <a href="comunidade.html"><img src="img/people_icon.png" alt=""></a>
+                    <a href="comunidade.html"><img class=imagens_footer src="img/people_icon.png" alt=""></a>
                 </li>
                 <li>
-                    <a href="marketplace.html"><img src="img/shop_icon.png" alt=""></a>
+                    <a href="marketplace.html"><img class=imagens_footer src="img/shop_icon.png" alt=""></a>
                 </li>
                 <li>
-                    <a href="mais.html"><img src="img/tree_points.png" alt=""></a>
+                    <a href="mais.html"><img class=imagens_footer src="img/tree_points.png" alt=""></a>
                 </li>
             </ul>
         </nav>
