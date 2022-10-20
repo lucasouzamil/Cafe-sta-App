@@ -20,14 +20,15 @@
     justify-content: space-around;
     position: fixed;
     bottom: 2%;
-    right: 10%;
+    margin-left: calc(50vw - 145px);
     background-color: white;
 
 }
 
 h1{
     position: absolute;
-    left: 32%;
+    width: 100px;
+    margin-left: calc(50vw - 50px);
     font-size: xx-large;
 }
 
