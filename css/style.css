@@ -275,3 +275,24 @@ h2{
     justify-content: left;
     gap:6px;
 }
+.preco_market{
+    font-size:15px;
+    margin-top:7px;
+}
+.barra_pesquisar_market{
+    margin-left: 7%;
+    margin-right: 14%;
+}
+.topo_market{
+    margin-top: 3%;
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    border: 0.1rem solid black;
+}
+
+.posicao_plus{
+    position: relative;
+    bottom:2.2rem;
+    left: 87%;
+}
