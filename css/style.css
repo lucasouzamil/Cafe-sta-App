@@ -140,14 +140,27 @@ h2{
 
 .pbl{
     border: .2rem solid #000000;
-    padding:2.7rem;
+    min-width: 2rem;
+    min-height: 5rem;
+    margin-right: 1.2rem;
+    margin-left: 1.2rem;
+}
+.pbl2{
+    border: .2rem solid #000000;
+    min-width: 20rem;
+    min-height: 10rem;
+}
+.pbl3{
+    border: .2rem solid #000000;
+    min-width: 20rem;
+    min-height: 3rem;
 }
 .img{
     width: 10rem;
     height: 10rem;
 }
 .gap{
-    gap:2rem
+    gap:1rem
 }
 .pbl{
     border: .2rem solid #000000;
@@ -274,4 +287,12 @@ h2{
     flex-direction: column;
     justify-content: left;
     gap:6px;
+}
+.fsg{
+    font-size: 2rem;
+}
+.imgg{
+    width: 20rem;
+    height: 20rem;
+    margin-top: 2rem;
 }
