@@ -134,6 +134,11 @@ h2{
     font-size: 2rem;
 }
 
+.tira_sublinhado{
+    text-decoration: none;
+    color:black;
+}
+
 .fs2{
     font-size: 1.3rem;
 }
