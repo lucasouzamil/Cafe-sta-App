@@ -140,14 +140,27 @@ h2{
 
 .pbl{
     border: .2rem solid #000000;
-    padding:2.7rem;
+    min-width: 2rem;
+    min-height: 5rem;
+    margin-right: 1.2rem;
+    margin-left: 1.2rem;
+}
+.pbl2{
+    border: .2rem solid #000000;
+    min-width: 20rem;
+    min-height: 10rem;
+}
+.pbl3{
+    border: .2rem solid #000000;
+    min-width: 20rem;
+    min-height: 3rem;
 }
 .img{
     width: 10rem;
     height: 10rem;
 }
 .gap{
-    gap:2rem
+    gap:1rem
 }
 .pbl{
     border: .2rem solid #000000;
@@ -275,6 +288,7 @@ h2{
     justify-content: left;
     gap:6px;
 }
+<<<<<<< HEAD
 .preco_market{
     font-size:15px;
     margin-top:7px;
@@ -296,3 +310,13 @@ h2{
     bottom:2.2rem;
     left: 87%;
 }
+=======
+.fsg{
+    font-size: 2rem;
+}
+.imgg{
+    width: 20rem;
+    height: 20rem;
+    margin-top: 2rem;
+}
+>>>>>>> bb45d4ea42f3bb26e84732a3d6cf7b61c2da083b
