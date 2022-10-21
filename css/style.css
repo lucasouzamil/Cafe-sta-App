@@ -134,20 +134,38 @@ h2{
     font-size: 2rem;
 }
 
+.tira_sublinhado{
+    text-decoration: none;
+    color:black;
+}
+
 .fs2{
     font-size: 1.3rem;
 }
 
 .pbl{
     border: .2rem solid #000000;
-    padding:2.7rem;
+    min-width: 2rem;
+    min-height: 5rem;
+    margin-right: 1.2rem;
+    margin-left: 1.2rem;
+}
+.pbl2{
+    border: .2rem solid #000000;
+    min-width: 20rem;
+    min-height: 10rem;
+}
+.pbl3{
+    border: .2rem solid #000000;
+    min-width: 20rem;
+    min-height: 3rem;
 }
 .img{
     width: 10rem;
     height: 10rem;
 }
 .gap{
-    gap:2rem
+    gap:1rem
 }
 .pbl{
     border: .2rem solid #000000;
@@ -317,4 +335,35 @@ h2{
     border: black solid 1px;
     padding: 0.2rem;
     width: 7rem;
+}
+
+.preco_market{
+    font-size:15px;
+    margin-top:7px;
+}
+.barra_pesquisar_market{
+    margin-left: 7%;
+    margin-right: 14%;
+}
+.topo_market{
+    margin-top: 3%;
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    border: 0.1rem solid black;
+}
+
+.posicao_plus{
+    position: relative;
+    bottom:2.2rem;
+    left: 87%;
+}
+
+.fsg{
+    font-size: 2rem;
+}
+.imgg{
+    width: 20rem;
+    height: 20rem;
+    margin-top: 2rem;
 }
