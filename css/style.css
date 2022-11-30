@@ -30,6 +30,7 @@ h1{
     width: 100px;
     margin-left: calc(50vw - 50px);
     font-size: xx-large;
+    font-family: 'Unna', serif;
 }
 
 h2{
@@ -39,6 +40,15 @@ h2{
     align-items: center;
     font-size: 40px;
     text-decoration: underline;
+    font-family: 'Unna', serif;
+}
+
+h3{
+    font-family: 'Unna', serif;
+}
+
+h4{
+    font-family: 'Unna', serif;
 }
 
 .menu_direita{
@@ -101,6 +111,7 @@ h2{
 
 .paragrafo_noticia{
     margin-top:7px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .etapas{
@@ -110,11 +121,13 @@ h2{
     padding-top: 30px;
     padding-bottom: 5px;
     font-weight:bold ;
+    font-family: 'Unna', serif;
 }
 
 .texto_etapas{
     margin-right: 15px;
     margin-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .coluna{
@@ -137,6 +150,7 @@ h2{
 .tira_sublinhado{
     text-decoration: none;
     color:black;
+    font-family: 'Unna', serif;
 }
 
 .fs2{
@@ -159,6 +173,7 @@ h2{
     border: .2rem solid #000000;
     min-width: 20rem;
     min-height: 3rem;
+    font-family: 'Unna', serif;
 }
 .img{
     width: 10rem;
@@ -259,6 +274,7 @@ h2{
 
 .assuntos_relacionados{
     margin-left: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .topo_perfil{
@@ -321,4 +337,20 @@ h2{
     width: 20rem;
     height: 20rem;
     margin-top: 2rem;
+}
+
+.fonte_pequena{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.textos_noticias{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.assunto_publicacao{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.texto_puplucacao{
+    font-family: 'Source Sans Pro', sans-serif;
 }
