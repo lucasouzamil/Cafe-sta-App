@@ -354,3 +354,54 @@ h4{
 .texto_puplucacao{
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+
+.area_do_chat{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: calc(100vh - 166.5px);
+}
+
+.digitar_mensagem{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: calc(100vw - 60px);
+    border: 0.1rem solid black;
+}
+
+.enviada{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0.2rem;
+}
+
+.balao_msg_enviada{
+    background-color:#B34983;
+    border: #B34983 0.2rem solid;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.recebida{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.2rem;
+}
+
+.balao_msg_recebida{
+    background-color:#482861;
+    border: #482861 0.2rem solid;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.botao_env{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    border: 0.1rem solid rgb(83, 83, 83);
+}

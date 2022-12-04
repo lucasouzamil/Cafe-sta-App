@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Unna&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>   
 </head>
 
 <body>
@@ -40,19 +41,26 @@
     <article Class="topo_chat">
         <img src="https://via.placeholder.com/15">
         <img Class="foto_perfil" src="https://via.placeholder.com/40">
-        <h2 Class="nome_perfil">Arthur Gouvea</h2>
+        <h2 Class="nome_perfil">Arthur Gouvêa</h2>
     </article>
 
     <ul Class="area_do_chat">
         <li Class="enviada">
-            <p Class="balao_msg_enviada">Boa  tarde, Arthur! Queria saber mais soobre como lidou com as cigarras...</p>
+            <p Class="balao_msg_enviada">Boa  tarde, Arthur!</p>
+        </li>
+        <li Class="enviada">
+            <p Class="balao_msg_enviada">Tudo bem?</p>
         </li>
         <li Class="recebida">
-            <p Class="balao_msg_recebida">(Arthur está digitando)</p>
+            <p Class="balao_msg_recebida">Estou bem, e você?</p>
         </li>
     </ul>
 
-    <input Class="digitar_mensagem" type="text" placeholder="Mensagem">
+    <ul class="linha">
+        <li><input Class="digitar_mensagem" type="text" placeholder="Mensagem"></li>
+        <li><button class="botao_env">Enviar</button></li>
+    </ul>
+    
 
 </body>
 </html>
