@@ -88,6 +88,7 @@ h4{
 }
 
 .lista_noticias{
+    margin-top:1.5rem;
     display: flex;
     flex-wrap:wrap;
 }
@@ -166,6 +167,7 @@ h4{
 }
 
 .pbl{
+    text-align: center;
     border: .2rem solid #000000;
     min-width: 2rem;
     min-height: 5rem;
@@ -173,11 +175,13 @@ h4{
     margin-left: 1.2rem;
 }
 .pbl2{
+    text-align: center;
     border: .2rem solid #000000;
     min-width: 20rem;
     min-height: 10rem;
 }
 .pbl3{
+    text-align: center;
     border: .2rem solid #000000;
     min-width: 20rem;
     min-height: 3rem;
@@ -187,6 +191,13 @@ h4{
     width: 10rem;
     height: 10rem;
 }
+
+.publicar_foto_titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .gap{
     gap:1rem
 }
@@ -246,6 +257,18 @@ h4{
     gap:7px;
     text-decoration: none;
     color: inherit;
+}
+
+.botao_voltar_market{
+    text-decoration: none;
+    color: inherit;
+}
+#publicado{
+    gap:1.5rem;
+}
+
+.linha_center_fsg{
+    font-weight: bold;
 }
 
 .foto_perfil_publicacao{
@@ -488,6 +511,23 @@ h4{
     padding:0.2rem; 
     padding-left:0.5rem;
     padding-right:0.5rem;
+}
+
+.botao_publicar{
+    text-align: center;
+    background-color: rgb(255,48,73);
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding:0.2rem; 
+    width: 40vw;
+    height: 40px;
+}
+
+.div_botaopublicar{
+    display: flex;
+    justify-content: center;
 }
 
 
