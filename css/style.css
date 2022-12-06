@@ -296,9 +296,13 @@ h4{
 
 .nome_perfil{
     font-size: 25px;
+}
+
+.nome_perfil_chat{
+    font-size: 25px;
     position: absolute;
     width: 150px;
-    right: calc(50vw - 8px);
+    right: calc(50vw - 80px);
 }
 
 .foto_perfil{
