@@ -458,7 +458,15 @@ h4{
     padding-right:0.5rem;
 }
 
+
 .barra_pesquisar_market{
+    border:none;
+    background-color: rgb(220, 220, 220);
+    border-radius: 12px;
+    padding-left:15px;
+}
+
+.botao_comentar_publicacao{
     border:none;
     background-color: rgb(220, 220, 220);
     border-radius: 12px;
