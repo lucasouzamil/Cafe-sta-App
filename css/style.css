@@ -462,8 +462,8 @@ h4{
 }
 
 .balao_msg_enviada{
-    background-color:#B34983;
-    border: #B34983 0.2rem solid;
+    background-color: rgb(201, 188, 159);
+    border: none;
     padding: 0.5rem;
     border-radius: 0.5rem;
 }
@@ -476,8 +476,8 @@ h4{
 }
 
 .balao_msg_recebida{
-    background-color:#482861;
-    border: #482861 0.2rem solid;
+    background-color:rgb(179, 230, 204);
+    border: none;
     padding: 0.5rem;
     border-radius: 0.5rem;
 }
@@ -494,8 +494,14 @@ h4{
     margin-bottom: 1.1rem;
     display: flex;
     flex-direction: row;
+    align-items: center;
     align-content: center;
     border-bottom: 0.2rem double black;
+}
+
+#fotochat{
+    width: 60px;
+    height: 60px;
 }
 
 .bloco_espaco{
@@ -511,6 +517,18 @@ h4{
     padding:0.2rem; 
     padding-left:0.5rem;
     padding-right:0.5rem;
+}
+
+#enviar_chat{
+    background-color: rgb(255,48,73);
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    padding:0.2rem; 
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+    height: 30px;
+    width:15vw;
 }
 
 .botao_publicar{
@@ -536,6 +554,15 @@ h4{
     background-color: rgb(220, 220, 220);
     border-radius: 12px;
     padding-left:15px;
+}
+
+#digitar_chat{
+    border:none;
+    background-color: rgb(220, 220, 220);
+    border-radius: 12px;
+    padding-left:15px;
+    height: 30px;
+    width: 75vw;
 }
 
 .botao_comentar_publicacao{
