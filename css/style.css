@@ -298,7 +298,7 @@ h4{
     font-size: 25px;
     position: absolute;
     width: 150px;
-    right: calc(50vw - 80px);
+    right: calc(50vw - 8px);
 }
 
 .foto_perfil{
