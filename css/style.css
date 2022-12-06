@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+
 .cabecalho{
     display: flex;
     flex-direction: row;
@@ -66,6 +70,8 @@ h4{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    height: 30px;
+    width: 30px;
 }
 
 .imagens_cabecalho{
@@ -315,8 +321,27 @@ h4{
     margin-top:7px;
 }
 .barra_pesquisar_market{
-    width: 75vw;
+    width: 65vw;
 }
+
+.img_curtir_publicacao{
+    width: 20px;
+    height: 20px;
+}
+
+.img_compartilhar_publicacao{
+    width: 20px;
+    height: 20px;
+}
+
+.navegacao_pesquisar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
 .topo_market{
     margin-top: 3%;
     display: flex;
@@ -411,3 +436,19 @@ h4{
     height: 5rem;
 }
 
+.botoes{
+    background-color: rgb(118,179,57);
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+    padding:0.2rem; 
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+}
+
+.barra_pesquisar_market{
+    border:none;
+    background-color: rgb(220, 220, 220);
+    border-radius: 12px;
+    padding-left:15px;
+}
