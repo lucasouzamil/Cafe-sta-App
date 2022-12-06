@@ -5,7 +5,7 @@
     justify-content: space-between;
     position: relative;
     border-bottom: 0.1rem solid black;
-    background-color: rgb(236, 231, 231);
+    background-color: rgb(79, 112, 45);
 }
 
 .footer{
@@ -21,7 +21,7 @@
     position: fixed;
     bottom: 2%;
     margin-left: calc(50vw - 145px);
-    background-color: white;
+    background-color: rgb(118, 179, 57);
 
 }
 
@@ -100,6 +100,8 @@ h4{
 
 .img_noticia{
     border-radius: 15px;
+    width: 150px;
+    height: 150px;
 }
 
 
