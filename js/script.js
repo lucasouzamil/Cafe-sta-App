@@ -29,24 +29,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
     enviar.addEventListener('click', envio)
 
-    barra_pesquisa = document.getElementById('pesquisa')
-    botao_pesquisa = document.getElementById('botao_market')
-    grupo_comunidade = document.getElementById('topo_comunidade2')
-
-    localStorage.setItem('pesquisa', barra_pesquisa.value)
-
-
-    botao_pesquisa.addEventListener('click', function(event){
-
-        assuntos = document.createElement('p')
-        grupo_comunidade.appendChild(assuntos)
-
-        if (localStorage.getItem('pesquisa')==''){
-            assuntos.innerHTML = 'Escreva algo antes de pesquisar :)'
-        }else{
-            assuntos.innerHTML = localStorage.getItem('pesquisa')
-        }
-        
-    })
-
 })
